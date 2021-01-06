@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/d5dbd82c3f.js" crossorigin="anonymous"></script>
+    
+    <title>Detalle Enfermedades</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>LOGO</p>
+        </div>
+        <div class="contenedorBuscador">
+            <div class="barra">
+                <datalist id="buscador">
+                    <option value="Gripe Estacional">
+                        <option value="COVID-19">
+                            <option value="Dengue">
+                               <option value="Cancer de Pulmon"></option>
+                               <option value="Tuberculosis"></option>
+                                <option value="Redes Sociales">
+                </datalist>
+                <input name="barra" id="barraBuscador" list="buscador">
+
+            </div>
+        </div>
+<!--        <button class="search"><i class="fas fa-search"></i></button>-->
+        <div class="iconoBuscador">
+            <button class="boton-buscar"><i class="fas fa-search" id="lupa"></i>
+            </button>
+
+        </div>
+    </header>
+    <main>
+         <section class="main-bkg">
+          <section class="contenedor-menu-bkg">
+            <nav class="menu-main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="enfermedades.html">Enfermedades</a></li>
+                <li><a href="vacunas.html">Vacunacion</a></li>
+                <li><a href="mapa-hospitales.html">Hospitales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            </nav>
+            
+        </section>
+        
+        <section class="titulo-pagina">
+            <h1>CORONA VIRUS</h1>
+        </section>
+        <section class="contenedor-img-text-bkg">
+               <article class="contenedor-img-text">
+                  <div class="imagen-detalle">
+                      <img src="img/covid.jpg" alt="">
+                  </div>
+                  <div class="texto">
+                      <p>La enfermedad por coronavirus (COVID 19) es una enfermedad infecciosa causada por un coronavirus recientemente descubierto.</p><p> 
+                        La mayoría de las personas que enferman de COVID 19 experimentan síntomas de leves a moderados y se recuperan sin tratamiento especial.</p>
+                        <p>
+                        El virus que causa la COVID‑19 se transmite principalmente a través de las gotículas generadas cuando una persona infectada tose, estornuda o espira. Estas gotículas son demasiado pesadas para permanecer suspendidas en el aire y caen rápidamente sobre el suelo o las superficies.</p>
+                        <p>
+                        Usted puede infectarse al inhalar el virus si está cerca de una persona con COVID‑19 o si, tras tocar una superficie contaminada, se toca los ojos, la nariz o la boca.</p>
+                        
+                  </div>
+                   
+               </article>
+        </section>
+        <section class="titulo-2">
+            <p>FORMULARIO DE DETECCION (TEST) DE CORONA VIRUS (COVID 19)<p>
+        </section>      
+        <section class="contenedor-2-detalle">
+                <article class="article-izq">
+                    <div class="texto">
+                        <p>Hola usuario! Si tienes sintomas de XXXX o has estado en contacto con una persona afectada deberias hacer un control y seguimiento diario de tus sintomas.</p>
+                        <p>Esta aplicacion te permitira hacer un seguimiento de la evolucion de los sintomas y te dara las indicaciones y consejos a seguir en cada caso. El uso de este servicio supone la aceptacion de los terminos y la politica de privacidad descritos en <a href="#">Ver las condiciones y politicas</a></p>
+                    </div>
+                    <div class="img-detalle">
+                        <img src="img/23-fiebre-tos.png" alt="">
+                        <img src="img/24-fiebre-dolor-garganta.png" alt="">
+                        <img src="img/25-fiebre-dificultad-respirar.png" alt="">
+                    </div>
+            </article>
+            <article class="contenedor-formulario">
+                    <div class="formularios">
+            <form action="" method="get" enctype="application/x-www-form-urlencoded" id="form" name="form">
+                    <div>
+
+                <label for="nombre-apellido" >Nombre y Apellido: </label>
+                <input type="text" id="nombre-apellido" name="nombre-apellido" placeholder="Escriba aca su nombre y apellido">
+            </label>    
+
+                    </div> 
+                   <div>
+
+                    <label for="dni">DNI </label>
+                <input type="text" id="dni" name="dni" placeholder="Escriba aca su dni">
+                 
+                  <label for="telefono">Telefono </label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Escriba aca su telefono">
+                </div>
+                  <div>
+
+                      <label for="ciudad">Ciudad </label>
+                <input type="text" id="ciudad" name="ciudad" placeholder="Escriba aca su ciudad">
+                
+                 <p>Indique sexo: </p>
+                
+                <label for="masculino">M </label><input type="radio" id="masculino" name="sexo">
+                
+                <label for="femenino">F </label><input type="radio" id="femenino" name="sexo">
+                  </div>
+                  <div >
+
+                  <label for="respuesta">¿Has viajado al exterior? </label>
+                <label for="si">Si </label><input type="radio" id="si-pais" name="respuesta">
+                
+                <label for="no">No </label><input type="radio" id="no-pais" name="respuesta">
+                  </div>
+                   <div id="contenedor-pais">
+
+                       <label for="paises">Paises Visitados</label>
+                <select name="paises" id="paises">
+                   <option value="" selected>Seleccione </option>
+                    <option value="ARG">Argentina</option>
+                    <option value="URU">Uruguay</option>
+                    <option value="COL">Colombia</option>
+                    <option value="EC">Ecuador</option>
+                    <option value="BO">Bolivia</option>
+                </select>
+                   </div>
+                   <div>
+                       <p>Por favor, indica los sintomas que presentas</p>
+                    </div>
+                      <div>
+                       <label for="respuesta">¿Tuviste Fiebre mayor a 38 grados? </label>
+                <label for="si">Si</label><input type="radio" id="si" name="respuesta-uno" value="si">
+                
+                <label for="no">No</label><input type="radio" id="no" name="respuesta-uno" value="no">
+                  </div>
+                  <div>
+                  <label for="respuesta">¿Tuviste Dolor de cabeza? </label>
+                <label for="si">Si</label><input type="radio" id="si" name="respuesta-dos" value="si">
+                
+                <label for="no">No</label><input type="radio" id="no" name="respuesta-dos"value="no">
+                </div>
+                 <div>
+                  <label for="respuesta">¿Tuviste una tos persistente? </label>
+                <label for="si">Si</label><input type="radio" id="si" name="respuesta-tres"value="si">
+                
+                <label for="no">No</label><input type="radio" id="no" name="respuesta-tres"value="no">
+                 </div>
+                  <div>
+                  <label for="respuesta">¿Tuviste Dolor de garganta? </label>
+                <label for="si">Si</label><input type="radio" id="si" name="respuesta-cuatro"value="si">
+                
+                <label for="no">No</label><input type="radio" id="no" name="respuesta-cuatro"value="no">
+                  </div>
+                  <div>
+                  <label for="respuesta">¿Tuviste Dificultad para respirar? </label>
+                <label for="si">Si</label><input type="radio" id="si-respirar" name="respuesta-cinco"value="si">
+                
+                <label for="no">No</label><input type="radio" id="no-respirar" name="respuesta-cinco"value="no">
+                   </div>
+                   <div >
+                       <div id="contenedor-direccion">
+                       <label for="direccion">Direccion </label>
+                <input type="text" id="direccion" name="direccion" placeholder="Escriba aca su direccion">
+            </div>
+                  <label for="localidad">Localidad </label>
+                <input type="text" id="localidad" name="localidad" placeholder="Escriba aca su localidad" >
+                   </div>
+                   <div>
+                       <input type="button" value="ENVIAR TEST" id="boton-enviar" class="enviar">
+                   </div>
+                   <div id="mensaje" class="error"> 
+
+                </div> 
+                    </form>
+                    </div>
+                    
+                </article>
+            </section>
+            <section class="titulo-2">
+                <p>MEDIDAS DE PRECAUCION</p>
+            </section>
+            <section>
+                <article class="img-precaucion">
+                    <img src="img/14-lavarse-manos.png" alt="">   
+                    <img src="img/15-estornudar.png" alt=""> 
+                    <img src="img/16-tocar-nariz.png" alt="">
+                    <img src="img/17-ventilar.png" alt="">
+                    <img src="img/18-limpiar-objetos.png" alt="">
+                    <img src="img/19-permanecer-domicilio.png" alt="">
+                    <img src="img/20-reducir-contacto.png" alt="">
+                    <img src="img/21-no-compartir-mate.png" alt="">
+                </article>
+            </section>
+            <section class="titulo-2">
+                <p>HOSPITAL MAS CERCANO ESPECIALIZADO EN LA ENFERMEDAD</p>
+            </section>
+            <section class="contenedor-3-detalle">
+                <article>
+                    <p class="texto">HOSPITAL ITALIANO</p>
+                    <p class="texto">011 4959-0200</p>
+                    <p class="texto">Pres. Juan Domingo Perón 2231, B1702 </p>
+                    <p class="texto">Buenos Aires</p>
+                    <div class="img-hospital">
+                    <img src="img/Italiano-San-Justo.jpg" alt="">
+                    </div>
+                </article>
+                <article>
+                   <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.404219314796!2d-58.56969338519282!3d-34.66974626850098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7cd14129b61%3A0x78f6eab9f8572beb!2sHospital%20Italiano%20de%20San%20Justo%20Agust%C3%ADn%20Rocca!5e0!3m2!1ses!2sar!4v1591128482989!5m2!1ses!2sar" width="600" height="340" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </article>
+            </section>
+           
+        </section>
+        </main>
+        <footer class="footer-bkg">
+        <div class="footer-inside">
+           
+            <article>
+                <p class="footer-title">Desarrollo</p>
+                <p class="txt">Rodrigo Garcia - 42540661</p>
+            </article>
+            <article>
+                <p class="footer-title">Más info</p>
+                <ul>
+                    <li><a href="enfermedades.html">Enfermedades</a></li>
+                    <li><a href="vacunas.html">Vacunas</a></li>
+                    <li><a href="hospitales">Hospitales</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </article>
+            <article>
+                <p class="footer-title">Redes Sociales</p>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-youtube-square"></i>
+            </article>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/validacion-detalle.js"></script>
+    </body>
+    
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/d5dbd82c3f.js" crossorigin="anonymous"></script>
+   
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>LOGO</p>
+        </div>
+        <div class="contenedorBuscador">
+            <div class="barra">
+                <datalist id="buscador">
+                    <option value="Gripe Estacional">
+                        <option value="COVID-19">
+                            <option value="Dengue">
+                               <option value="Cancer de Pulmon"></option>
+                               <option value="Tuberculosis"></option>
+                                <option value="Redes Sociales">
+                </datalist>
+                <input name="barra" id="barraBuscador" list="buscador">
+
+            </div>
+        </div>
+<!--        <button class="search"><i class="fas fa-search"></i></button>-->
+        <div class="iconoBuscador">
+            <button class="boton-buscar"><i class="fas fa-search" id="lupa"></i>
+            </button>
+
+        </div>
+    </header>
+    <main>
+      <section class="main-bkg">
+       <section class="contenedor-menu-bkg">
+            <nav class="menu-main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="enfermedades.html">Enfermedades</a></li>
+                <li><a href="vacunas.html">Vacunacion</a></li>
+                <li><a href="mapa-hospitales.html">Hospitales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            </nav>
+            
+        </section>
+      
+        <section class="contenedor-1-contacto">
+         
+            <article class="contenedor-2-contacto">
+                <form action="#" method="get" enctype="application/x-www-form-urlencoded" id="">
+                 <p class="titulo">CONTACTO</p>
+                <div class="inputs">
+
+                <input type="text" placeholder="Escriba su nombre y apellido" id="campo-nombre-uno" name="campo-nombre">
+                
+               
+                <input type="email" placeholder="Escriba su email" id="campo-email">
+                  
+                <input type="tel" placeholder="Escriba su telefono" id="campo-telefono">
+                
+                <textarea name="mensaje" id="mensaje-text-area" cols="30" rows="10" placeholder="Escriba su consulta"></textarea>
+                
+                <input type="button" value="ENVIAR" class="enviar" id="enviar-boton">
+                </div>
+            <div id="mensajes" class="error">
+               
+            </div>
+        </form>
+    </div>
+            </article>
+            <article class="contenedor-3-datos">
+                <p class="titulo">DATOS DE CONTACTO</p>
+                <p class="texto">Juan Pablo Cazares </p>
+                <p class="texto">+54 4691-4512</p>
+                <p class="texto">011 45930211</p>
+                <p class="texto">cuidarenfermedades@outlook.com</p>
+                <p class="texto">www.cuidarenfermedades.com.ar</p>
+                <div class="contenedor-redes">
+                <div class="circulo-contacto">
+                <i class="fab fa-facebook-square"></i>
+                </div>
+                <div class="circulo-contacto">
+                <i class="fab fa-twitter-square"></i>
+                </div>
+                <div class="circulo-contacto">
+                <i class="fab fa-youtube-square"></i>
+                </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article>
+               <p class="titulo">UBICACION</p>
+                <div class="mapa-hosp">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105090.21227338724!2d-58.44649674179687!3d-34.602413299999974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb40945ac621%3A0x1ebbb3682e95ea58!2sAntares%20Salud!5e0!3m2!1ses!2sar!4v1591131714497!5m2!1ses!2sar" width="80%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </article>
+        </section>
+        </section>
+    </main>
+    <footer class="footer-bkg">
+        <div class="footer-inside">
+           
+            <article>
+                <p class="footer-title">Desarrollo</p>
+                <p class="txt">Rodrigo Garcia - 42540661</p>
+            </article>
+            <article>
+                <p class="footer-title">Más info</p>
+                <ul>
+                    <li><a href="enfermedades.html">Enfermedades</a></li>
+                    <li><a href="vacunas.html">Vacunas</a></li>
+                    <li><a href="hospitales">Hospitales</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </article>
+            <article>
+                <p class="footer-title">Redes Sociales</p>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-youtube-square"></i>
+            </article>
+        </div>
+    </footer>
+   <script src="js/validacion-contacto.js"></script>
+    </body>
+</html>

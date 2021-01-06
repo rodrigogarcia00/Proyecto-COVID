@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/d5dbd82c3f.js" crossorigin="anonymous"></script>
+    <title>Mapa Hospitales</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>LOGO</p>
+        </div>
+        <div class="contenedorBuscador">
+            <div class="barra">
+                <datalist id="buscador">
+                    <option value="Gripe Estacional">
+                        <option value="COVID-19">
+                            <option value="Dengue">
+                                <option value="Cancer de Pulmon"></option>
+                                    <option value="Tuberculosis"></option>
+                                        <option value="Redes Sociales">
+                </datalist>
+                <input name="barra" id="barraBuscador" list="buscador">
+
+            </div>
+        </div>
+<!--        <button class="search"><i class="fas fa-search"></i></button>-->
+        <div class="iconoBuscador">
+            <button class="boton-buscar"><i class="fas fa-search" id="lupa"></i>
+            </button>
+
+        </div>
+    </header>
+    <main>
+      <section class="main-bkg">
+       <section class="contenedor-menu-bkg">
+            <nav class="menu-main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="enfermedades.html">Enfermedades</a></li>
+                <li><a href="vacunas.html">Vacunacion</a></li>
+                <li><a href="mapa-hospitales.html">Hospitales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            </nav>
+            
+        </section>
+        <section class="titulo-pagina">
+            <h1>MAPAS DE HOSPITALES</h1>
+        </section>
+           <section>
+            <article>
+                <div class="mapa-hosp">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.404219314789!2d-58.56969338519281!3d-34.66974626850097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7cd14129b61%3A0x78f6eab9f8572beb!2sHospital%20Italiano%20de%20San%20Justo%20Agust%C3%ADn%20Rocca!5e0!3m2!1ses!2sar!4v1591130546870!5m2!1ses!2sar" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </article>
+        </section>
+        <section class="titulo-contenedor">
+        <p>LOS HOSPITALES DISPONIBLE SON:</p>
+        </section>
+        <section class="contenedor-hospitales">
+            <article>
+                <div>
+                    <img src="img/cedros.jpg" alt="">
+                </div>
+                <p>HOSPITAL DE LOS CEDROS</p>
+                <div id="boton-ver-1">
+                    <a>VER INFORMACION</a>
+                </div>
+                <div id="popup-1">
+                    <h2>POPUP</h2>
+                    <p>Localidad: San Justo, Provincia de Buenos Aires </p>
+                    <p>Direccion: Av. Pres. Dr. Arturo Umberto Illia 2275</p>
+                    <div id="boton-cerrar-1">
+                        <a>CERRAR</a>
+                    </div>
+                </div>
+               
+            </article>
+            <article>
+                <div>
+                    <img src="img/paroissien.jpg" alt="">
+                </div>
+                <p>HOSPITAL PAROISSIEN</p>
+                <div id="boton-ver-2">
+                    <a>VER INFORMACION</a>
+                </div>
+                <div id="popup-2">
+                    <h2>POPUP </h2>
+                    <p>Localidad: Isidro Casanova, Provincia de Buenos Aires</p>
+                    <p>Direccion: Avenida Brigadier General Juan Manuel de Rosas 6000 </p>
+                    <div id="boton-cerrar-2">
+                        <a>CERRAR</a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <img src="img/balestrini.jpg" alt="">
+                </div>
+                <p>HOSPITAL BALESTRINI</p>
+                <div id="boton-ver-3">
+                    <a >VER INFORMACION</a>
+                </div>
+                <div id="popup-3">
+                    <h2>POPUP</h2>
+                    <p>Localidad: Ciudad Evita, Provincia de Buenos Aires</p>
+                    <p>Direccion: Av. Monseñor Bufano </p>
+                    <div id="boton-cerrar-3">
+                        <a>CERRAR</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        </section>
+    </main>
+    <footer class="footer-bkg">
+        <div class="footer-inside">
+           
+            <article>
+                <p class="footer-title">Desarrollo</p>
+                <p class="txt">Rodrigo Garcia - 42540661</p>
+            </article>
+            <article>
+                <p class="footer-title">Más info</p>
+                <ul>
+                    <li><a href="enfermedades.html">Enfermedades</a></li>
+                    <li><a href="vacunas.html">Vacunas</a></li>
+                    <li><a href="hospitales">Hospitales</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </article>
+            <article>
+                <p class="footer-title">Redes Sociales</p>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-youtube-square"></i>
+            </article>
+        </div>
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popup-hospitales.js"></script>
+    </body>
+</html>

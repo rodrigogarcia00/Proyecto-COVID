@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='fullcalendar/core/main.css' rel='stylesheet' />
+    <link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+    <script src="https://kit.fontawesome.com/d5dbd82c3f.js" crossorigin="anonymous"></script>
+    <title>Vacunas</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>LOGO</p>
+        </div>
+        <div class="contenedorBuscador">
+            <div class="barra">
+                <datalist id="buscador">
+                    <option value="Gripe Estacional">
+                        <option value="COVID-19">
+                            <option value="Dengue">
+                               <option value="Cancer de Pulmon"></option>
+                               <option value=""></option>
+                                <option value="Redes Sociales">
+                </datalist>
+                <input name="barra" id="barraBuscador" list="buscador">
+
+            </div>
+        </div>
+        <div class="iconoBuscador">
+            <button class="boton-buscar"><i class="fas fa-search" id="lupa"></i>
+            </button>
+
+        </div>
+    </header>
+    <main>
+        <section class="contenedor-menu-bkg">
+            <nav class="menu-main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="enfermedades.html">Enfermedades</a></li>
+                <li><a href="vacunas.html">Vacunacion</a></li>
+                <li><a href="mapa-hospitales.html">Hospitales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            </nav>
+            
+        </section>
+        <section class="contenedor-calendario">
+            <article id="calendar" class="fc fc-ltr fc-unthemed">
+            </article>
+        </section>
+       
+    </main>
+    
+        <footer class="footer-bkg">
+            <div class="footer-inside">
+               
+                <article>
+                    <p class="footer-title">Desarrollo</p>
+                    <p class="txt">Rodrigo Garcia - 42540661</p>
+                </article>
+                <article>
+                    <p class="footer-title">Más info</p>
+                    <ul>
+                        <li><a href="enfermedades.html">Enfermedades</a></li>
+                        <li><a href="vacunas.html">Vacunas</a></li>
+                        <li><a href="hospitales">Hospitales</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </article>
+                <article>
+                    <p class="footer-title">Redes Sociales</p>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube-square"></i>
+                </article>
+            </div>
+        </footer>
+    <script src='fullcalendar/core/main.js'></script>
+    <script src='fullcalendar/daygrid/main.js'></script>
+    <script src='fullcalendar/timegrid/main.css'></script>
+    <script src='fullcalendar/timegrid/main.js'></script>
+    <script src="fullcalendar/list/main.css"></script>
+    <script src="fullcalendar/list/main.js"></script>
+    <script src="fullcalendar/core/locales-all.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/calendario.js"></script>
+</body>
+</html>
